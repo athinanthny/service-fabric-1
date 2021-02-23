@@ -1,0 +1,12 @@
+- name: GitHub issue tracker
+  # You may pin to the exact commit or the version.
+  # uses: ActionCloud/issue-tracker-action@ca564779748357fa30ac7f9eb599bb0d66b0ecfb
+  uses: ActionCloud/issue-tracker-action@v1
+  
+  with:
+    # A GitHub token
+     github-token: 
+ 
+   on:
+     schedule:
+     - cron: "0 2 * * 1-5"
