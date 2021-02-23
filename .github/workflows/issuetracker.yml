@@ -6,7 +6,6 @@
   with:
     # A GitHub token
      github-token: 
- 
-   on:
-     schedule:
-     - cron: "0 2 * * 1-5"
+  on:
+    schedule:
+    - cron: "0 2 * * 1-5"
